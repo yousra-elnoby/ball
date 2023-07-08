@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+   
+}
+
+.db {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute; 
+}
+.d2, .d4, .d6, .d8{
+    left:1260px;
+}
+.d1{
+    background-color: rgb(255, 255, 255);
+    animation-name: d1b;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    
+}
+@keyframes d1b{
+    0% {left:0% ; background-color:  rgb(248, 247, 247); ;}
+    50% { background-color: yellow;}
+    100%{left:1260px; background-color:  rgb(243, 7, 7) }
+
+}
+.d2{
+    background-color: rgb(243, 7, 7);
+    animation-name: d2b;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    top: 100px;
+    
+}
+@keyframes d2b{
+    0% {left:1260px; background-color:  rgb(243, 7, 7)}
+    50% { background-color: yellow;}
+    100%{left:0%; background-color:  rgb(248, 247, 247); }
+
+}
+.d3{
+    background-color: rgb(255, 255, 255);
+    animation-name: d3b;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    top:200px;
+}
+@keyframes d3b{
+   0% {left:0% ; background-color:  rgb(248, 247, 247); ;}
+    50% { background-color: yellow;}
+    100%{left:1260px; background-color:  rgb(243, 7, 7) }
+
+}
+.d4{
+    background-color: rgb(243, 7, 7);
+    animation-name: d4b;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-fill-mode: both;
+    top: 300px;
+}
+@keyframes d4b{
+    0% {left:1260px; background-color:  rgb(243, 7, 7)}
+    50% { background-color: yellow;}
+    100%{left:0%; background-color:  rgb(248, 247, 247); }
+
+}
+.d5{
+    background-color: rgb(255, 255, 255);
+    animation-name: d5b;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-fill-mode: both;
+    top: 400px;
+}
+@keyframes d5b{
+   0% {left:0% ; background-color:  rgb(248, 247, 247); ;}
+    50% { background-color: yellow;}
+    100%{left:1260px; background-color:  rgb(243, 7, 7) }
+
+}
+.d6{
+    background-color: rgb(243, 7, 7);
+    animation-name: d6b;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-fill-mode: both;
+    top: 500px;
+}
+@keyframes d6b{
+
+   0% {left:1260px; background-color:  rgb(243, 7, 7)}
+    50% { background-color: yellow;}
+    100%{left:0%; background-color:  rgb(248, 247, 247); }
+
+}
+.d7{
+    background-color: rgb(255, 255, 255);
+    animation-name: d7b;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-fill-mode: both;
+    top: 600px;
+}
+@keyframes d7b{
+
+    0% {left:0% ; background-color:  rgb(248, 247, 247); ;}
+    50% { background-color: yellow;}
+    100%{left:1260px; background-color:  rgb(243, 7, 7) }
+    }
+
+.d8{
+    background-color: rgb(243, 7, 7);
+    animation-name: d8b;
+    animation-duration: 3s;
+    animation-delay: 21s;
+    animation-fill-mode: both;
+    top: 700px;
+    
+}
+@keyframes d8b{
+
+    0% {left:1260px; background-color:  rgb(243, 7, 7)}
+    50% { background-color: yellow;}
+    100%{left:0%; background-color:  rgb(248, 247, 247); }
+
+}
